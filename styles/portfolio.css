@@ -17,7 +17,6 @@
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 27px;
     border: 0px;
     padding: 18px 35px;
     
@@ -25,13 +24,11 @@
 
 /* Header and navigation styles */
 
-.header {
+.header{
     background-color: #FFF8F3;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
-
-
 }
 
 nav{
@@ -90,6 +87,7 @@ main{
 section{
     margin-top: 130px;
 }
+
 /* about section styles */
 
 .about-me{
@@ -105,7 +103,7 @@ section{
     font-weight: 700;
     font-size: 35px;
     color: #181818;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 
 
 }
@@ -166,4 +164,96 @@ section{
 }
 
 /* summary section styles */
+.resume{
 
+}
+
+.resume-container{
+    display: flex;
+    gap: 300px;
+
+}
+
+.resume-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* Resume Info */
+.resume-des{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+
+}
+
+.edu-name{
+    margin-bottom: 10px;
+    font-weight: 700px;
+    font-size: 25px;
+    color: #474747;
+
+}
+
+.edu-var{
+    margin-bottom: 30px;
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+.edu-des{
+    font-size: 16px;
+    color: #757575;
+}
+
+/* Contact styles */
+
+.contact{
+    display: flex;
+    gap: 100px;
+    margin-top: 130px;
+    justify-content: space-between;
+    background-color: #FFF8F3;
+}
+.contact-items{
+    padding: 130px 200px;
+}
+
+.contact-title{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+input,textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+
+input[type="email"],[type="text"]{
+    width: 461px;
+    height: 64px;
+}
+
+textarea{
+    width: 461px;
+    height: 180px;
+}
+
+.contact a{
+    text-decoration: none;
+}
+.contact p{
+    color: #474747;
+    margin-bottom: 30px;
+}
